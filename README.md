@@ -1,1 +1,3 @@
 # CryptoClustering
+
+Included in this repo is a Jupyter Notebooks and a "Resources" folder containing a CSV file with data on various cryptocurrencies. The purpose of this challenge was to use unsupervised learning to cluster and predict if cryptocurrencies are affected by various price changes. In the Jupyter Notebook, we deploy the StandardScaler, KMeans, and PCA modules from the scikit-learn package in order to fit, transform, and predict the given data after using the elbow method to acquire the best value of `k`. In the end, an evaluation was done on the results of the analysis before and after using PCA. 
